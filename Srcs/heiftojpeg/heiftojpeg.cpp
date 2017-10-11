@@ -240,7 +240,7 @@ int main(int argc, char *argv[])
     int c;
 
     opterr = 0;
-    while ((c = getopt (argc, argv, "vs:")) != -1) {
+    while ((c = getopt (argc, argv, "vsq:")) != -1) {
         switch (c) {
             case 'v':
                 VERBOSE = 1;
